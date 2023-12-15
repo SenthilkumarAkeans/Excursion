@@ -30,12 +30,12 @@
     <link media="all" rel="stylesheet" href="css/custom.css">
 </head>
 
-<body>
+<body> 
     <!-- main wrapper -->
     <div id="wrapper">
         <div class="page-wrapper">
             <!-- header of the page -->
-            <header class="fixed-top main-header header-white transparent" id="excursion-main-header">
+            <header class="fixed-top main-header header-white no-top-header" id="excursion-main-header">
                 <div id="nav-section">
                     <div class="bottom-header container-fluid mega-menus" id="mega-menus">
                         <nav class="navbar navbar-toggleable-md no-border-radius no-margin mega-menu-multiple" id="navbar-inner-container">
@@ -47,7 +47,7 @@
                             <button type="button" class="navbar-toggler navbar-toggler-left" data-toggle="collapse" data-target="#mega-menu">
                                 <span class="navbar-toggler-icon"></span>
                             </button>
-                            <a class="navbar-brand mr-auto m-sm-auto" href="index.html"> <img src="img/logo.png" alt="excursion"> <img src="img/logo-dark.png" alt="excursion"> </a>
+                            <a class="navbar-brand mr-auto m-sm-auto" href="index.html"> <img src="img/logo-dark.png" alt="excursion"> </a>
                             <div class="collapse navbar-collapse flex-row-reverse" id="mega-menu">
                                 <ul class="nav navbar-nav">
                                     <li class="dropdown" data-animation="fadeIn">
@@ -166,7 +166,7 @@
                                         </ul>
                                     </li>
                                     <li class="dropdown" data-animation="fadeIn">
-                                        <a class="dropdown-toggle" data-toggle="dropdown" href="index.html" data-title="Home"> Portfolio </a>
+                                        <a class="dropdown-toggle" data-toggle="dropdown" href="portfolio.html" data-title="Home"> Portfolio </a>
                                         <ul class="dropdown-menu no-border-radius">
                                             <li class="dropdown dropdown-left dropdown-parent">
                                                 <a class="sub-marker" href="#"> No Sidebar <i class="icon-ios-more icn-right"></i></a>
@@ -193,7 +193,7 @@
                                                     <li><a href="portfolio-right-sidebar-4-col.html"> 4 Column </a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="portfolio-masonary.html"> Masonary </a></li>
+                                            
                                             <li><a href="portfolio-full-width.html">  Full Width </a></li>
                                             <li><a href="portfolio-full-width-spaced.html">  Full Spaced</a></li>
                                             <li><a href="portfolio-3-col.html"> Boxed </a></li>
@@ -203,7 +203,7 @@
                                         </ul>
                                     </li>
                                     <li class="dropdown dropdown-full-width-g" data-animation="fadeIn">
-                                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" data-title="Pages">Elements </a>
+                                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" data-title="Pages">Shortcodes</a>
                                         <div class="dropdown-menu no-border-radius no-padding" data-adjust="2">
                                             <div class="row row-autoheight no-gutters">
                                                 <div class="col-lg-3 col-autoheight clearfix">
@@ -252,7 +252,7 @@
                                                     <div class="widget-default clearfix">
                                                         <ul class="s-list s-list-pl s-list-mb-10 no-padding">
                                                             <li><a href="element-blockquotes.html"><i class="icon-quote-left"></i> BLOCKQUOTES </a></li>
-                                                            <li><a href="font-icons.html"><i class="icon-laptop-6"></i> FONT ICONS </a></li>
+                                                            
                                                             <li><a href="element-sections.html"><i class="icon-folder-open"></i> SECTIONS </a></li>
                                                             <li><a href="element-social-icons.html"><i class="icon-facebook"></i> SOCIAL ICONS </a></li>
                                                             <li><a href="element-select-pickers.html"><i class="icon-select"></i> SELECT PICKER </a></li>
@@ -268,24 +268,10 @@
                                     <li>
                                         <a href="about.html"> About </a>
                                     </li>
+                                    
+                                    <li> <a href="blog.html"> Blog </a> </li>
                                     <li>
-                                        <a href="team.html"> Team </a>
-                                    </li>
-                                    <li class="dropdown right-dropdown" data-animation="fadeIn">
-                                        <a class="dropdown-toggle" data-toggle="dropdown" href="index.html" data-title="Home"> Blog </a>
-                                        <ul class="dropdown-menu no-border-radius">
-                                        	<li><a href="blog-one-col.html"> Blog One Column </a></li>
-                                            <li><a href="blog-two-col.html"> Blog Two Column </a></li>
-                                            <li><a href="blog-three-col.html"> Blog Three Column </a></li>
-                                            <li><a href="blog-left-sidebar.html"> Blog Left Sidebar </a></li>
-                                            <li><a href="blog-right-sidebar.html"> Blog Right Sidebar </a></li>
-                                            <li><a href="blog-masonary.html"> Masonary </a></li>
-                                            <li><a href="blog-full-width.html"> Full Width </a></li>
-                                            <li><a href="blog-single.html"> Blog Single </a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="contact.html"> Contact </a>
+                                        <a href="contact-us.html"> Contact Us </a>
                                     </li>
                                     <li class="dropdown cart-list margin-0-sm">
                                         <a class="dropdown-toggle" data-toggle="dropdown" href="javascript:void(0);"><span class="hidden-lg-up"> Shopping Cart </span><i class="fa-brands fa-opencart"></i></a>
@@ -341,20 +327,19 @@
                 </div>
             </header>
             <!--/header of the page -->
-            <main>
+            <main class="no-banner">
                 <!-- visual/banner of the page -->
-                <section class="visual">
-                    <div class="visual-inner portfolio-banner-v1 black-overlay-3 parallax" data-stellar-background-ratio="0.55">
+                <section class="visual visual-sub visual-no-bg">
+                    <div class="visual-inner no-overlay bg-gray-light">
                         <div class="centered">
                             <div class="container">
                                 <div class="visual-text visual-center">
-                                    <h1 class="visual-title visual-sub-title text-white">Portfolio - No Sidebar 4 Col</h1>
+                                    <h1 class="visual-title visual-sub-title">Portfolio Single</h1>
                                     <div class="breadcrumb-block">
                                         <ol class="breadcrumb">
-                                            <li class="breadcrumb-item"><a href="index.html"> Home </a></li>
-                                            <li class="breadcrumb-item"><a href="#"> Protfolio </a></li>
-                                            <li class="breadcrumb-item"><a href="#"> No Sidebar </a></li>
-                                            <li class="breadcrumb-item active"> 4 Col </li>
+                                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                            <li class="breadcrumb-item"><a href="#">Protfolio</a></li>
+                                            <li class="breadcrumb-item active">SINGLE</li>
                                         </ol>
                                     </div>
                                 </div>
@@ -365,403 +350,155 @@
                 <!--/visual/banner of the page -->
                 <!-- main content wrapper -->
                 <div class="content-wrapper">
-                    <section class="content-block portfolio-block eighty-percent">
-                        <ul class="filter-nav filter-nav-v2 text-center button-group filter-button-group">
-                            <li>
-                                <button class="is-checked" data-filter="*">ALL WORK</button>
-                            </li>
-                            <li>
-                                <button data-filter=".ui">UI/UX DESIGN</button>
-                            </li>
-                            <li>
-                                <button data-filter=".programming">PROGRAMMING</button>
-                            </li>
-                            <li>
-                                <button data-filter=".photography">PHOTOGRAPHY</button>
-                            </li>
-                            <li>
-                                <button data-filter=".ecommerce">ECOMMERCE</button>
-                            </li>
-                        </ul>
-                        <div class="container-fluid">
-                            <div class="row masonary-block grid">
-                                <div class="gallery-item col-md-6 col-lg-3 col-xl-3 ui photography">
-                                    <figure class="caption-hover-full">
-                                        <a class="fancy-pop" href="portfolio-single.html"></a>
-                                        <div class="image-wrapper"><img src="img/portfolio-21.jpg" alt="images description"></div>
-                                        <div class="image-details">
-                                            <div class="figcaption">
-                                                <div class="trigger">
-                                                    <div class="custom-icon-plus"><span class="sr-only">&nbsp;</span></div>
-                                                </div>
-                                                <div class="info">
-                                                    <h2 class="content-title">Awesome Project</h2>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </figure>
+                    <section class="content-block">
+                        <div class="container">
+                            <div class="row portfolio-gallery">
+                                <div class="bottom-space-medium-only col-lg-6">
+                                    <div class="img-block border-hover-effect">
+                                        <img src="img/img-12.jpg" alt="images">
+                                    </div>
                                 </div>
-                                <div class="gallery-item col-md-6 col-lg-3 col-xl-3 photography">
-                                    <figure class="caption-hover-full">
-                                        <a class="fancy-pop" href="portfolio-single.html"></a>
-                                        <div class="image-wrapper"><img src="img/portfolio-22.jpg" alt="images description"></div>
-                                        <div class="image-details">
-                                            <div class="figcaption">
-                                                <div class="trigger">
-                                                    <div class="custom-icon-plus"><span class="sr-only">&nbsp;</span></div>
-                                                </div>
-                                                <div class="info">
-                                                    <h2 class="content-title">Awesome Project</h2>
-                                                </div>
+                                <div class="col-lg-6">
+                                    <div class="row">
+                                        <div class="col-small col-md-6">
+                                            <div class="img-block border-hover-effect">
+                                                <img src="img/img-13.jpg" alt="images">
                                             </div>
                                         </div>
-                                    </figure>
+                                        <div class="col-small col-md-6">
+                                            <div class="img-block border-hover-effect">
+                                                <img src="img/img-14.jpg" alt="images">
+                                            </div>
+                                        </div>
+                                        <div class="col-small mb-0 col-md-12">
+                                            <div class="img-block border-hover-effect">
+                                                <img src="img/img-15.jpg" alt="images">
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="gallery-item col-md-6 col-lg-3 col-xl-3 ui programming">
-                                    <figure class="caption-hover-full">
-                                        <a class="fancy-pop" href="portfolio-single.html"></a>
-                                        <div class="image-wrapper"><img src="img/portfolio-23.jpg" alt="images description"></div>
-                                        <div class="image-details">
-                                            <div class="figcaption">
-                                                <div class="trigger">
-                                                    <div class="custom-icon-plus"><span class="sr-only">&nbsp;</span></div>
+                            </div>
+                            <div class="portfolio-des top-space">
+                                <div class="row">
+                                    <div class="col-lg-6 bottom-space-medium-only">
+                                        <ul class="content-list info-list">
+                                            <li class="row">
+                                                <div class="col">
+                                                    <span class="custom-icon-folder"><span class="sr-only">&nbsp;</span></span>
+                                                    <span class="text title">Project Name</span>
                                                 </div>
-                                                <div class="info">
-                                                    <h2 class="content-title">Awesome Project</h2>
+                                                <div class="col">
+                                                    <p>Roxine Web Design</p>
                                                 </div>
-                                            </div>
+                                            </li>
+                                            <li class="row">
+                                                <div class="col">
+                                                    <span class="custom-icon-user"><span class="sr-only">&nbsp;</span></span>
+                                                    <span class="text title">Created By:</span>
+                                                </div>
+                                                <div class="col">
+                                                    <p>Sanjeev Jha</p>
+                                                </div>
+                                            </li>
+                                            <li class="row">
+                                                <div class="col">
+                                                    <span class="custom-icon-calendar"><span class="sr-only">&nbsp;</span></span>
+                                                    <span class="text title">Completed on:</span>
+                                                </div>
+                                                <div class="col">
+                                                    <p>07th August 2017</p>
+                                                </div>
+                                            </li>
+                                            <li class="row">
+                                                <div class="col">
+                                                    <span class="custom-icon-skill"><span class="sr-only">&nbsp;</span></span>
+                                                    <span class="text title">Skills Used:</span>
+                                                </div>
+                                                <div class="col">
+                                                    <p>PHP / MySQL / HTML5</p>
+                                                </div>
+                                            </li>
+                                            <li class="row">
+                                                <div class="col">
+                                                    <span class="custom-icon-link2"><span class="sr-only">&nbsp;</span></span>
+                                                    <span class="text title">Client Name:</span>
+                                                </div>
+                                                <div class="col">
+                                                     <p><a href="#">Roxine Web Studio</a></p>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <div class="text-block top-space">
+                                            <h2 class="text-block-title">Project Detail:</h2>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
                                         </div>
-                                    </figure>
-                                </div>
-                                <div class="gallery-item col-md-6 col-lg-3 col-xl-3 ecommerce">
-                                    <figure class="caption-hover-full">
-                                        <a class="fancy-pop" href="portfolio-single.html"></a>
-                                        <div class="image-wrapper"><img src="img/portfolio-24.jpg" alt="images description"></div>
-                                        <div class="image-details">
-                                            <div class="figcaption">
-                                                <div class="trigger">
-                                                    <div class="custom-icon-plus"><span class="sr-only">&nbsp;</span></div>
-                                                </div>
-                                                <div class="info">
-                                                    <h2 class="content-title">Awesome Project</h2>
-                                                </div>
-                                            </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="text-block">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+                                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit.</p>
                                         </div>
-                                    </figure>
-                                </div>
-                                <div class="gallery-item col-md-6 col-lg-3 col-xl-3 programming ui">
-                                    <figure class="caption-hover-full">
-                                        <a class="fancy-pop" href="portfolio-single.html"></a>
-                                        <div class="image-wrapper"><img src="img/portfolio-25.jpg" alt="images description"></div>
-                                        <div class="image-details">
-                                            <div class="figcaption">
-                                                <div class="trigger">
-                                                    <div class="custom-icon-plus"><span class="sr-only">&nbsp;</span></div>
-                                                </div>
-                                                <div class="info">
-                                                    <h2 class="content-title">Awesome Project</h2>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </figure>
-                                </div>
-                                <div class="gallery-item col-md-6 col-lg-3 col-xl-3 photography">
-                                    <figure class="caption-hover-full">
-                                        <a class="fancy-pop" href="portfolio-single.html"></a>
-                                        <div class="image-wrapper"><img src="img/portfolio-26.jpg" alt="images description"></div>
-                                        <div class="image-details">
-                                            <div class="figcaption">
-                                                <div class="trigger">
-                                                    <div class="custom-icon-plus"><span class="sr-only">&nbsp;</span></div>
-                                                </div>
-                                                <div class="info">
-                                                    <h2 class="content-title">Awesome Project</h2>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </figure>
-                                </div>
-                                <div class="gallery-item col-md-6 col-lg-3 col-xl-3 programming">
-                                    <figure class="caption-hover-full">
-                                        <a class="fancy-pop" href="portfolio-single.html"></a>
-                                        <div class="image-wrapper"><img src="img/portfolio-27.jpg" alt="images description"></div>
-                                        <div class="image-details">
-                                            <div class="figcaption">
-                                                <div class="trigger">
-                                                    <div class="custom-icon-plus"><span class="sr-only">&nbsp;</span></div>
-                                                </div>
-                                                <div class="info">
-                                                    <h2 class="content-title">Awesome Project</h2>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </figure>
-                                </div>
-                                <div class="gallery-item col-md-6 col-lg-3 col-xl-3 ecommerce">
-                                    <figure class="caption-hover-full">
-                                        <a class="fancy-pop" href="portfolio-single.html"></a>
-                                        <div class="image-wrapper"><img src="img/portfolio-28.jpg" alt="images description"></div>
-                                        <div class="image-details">
-                                            <div class="figcaption">
-                                                <div class="trigger">
-                                                    <div class="custom-icon-plus"><span class="sr-only">&nbsp;</span></div>
-                                                </div>
-                                                <div class="info">
-                                                    <h2 class="content-title">Awesome Project</h2>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </figure>
-                                </div>
-                                <div class="gallery-item col-md-6 col-lg-3 col-xl-3 ecommerce">
-                                    <figure class="caption-hover-full">
-                                        <a class="fancy-pop" href="portfolio-single.html"></a>
-                                        <div class="image-wrapper"><img src="img/portfolio-29.jpg" alt="images description"></div>
-                                        <div class="image-details">
-                                            <div class="figcaption">
-                                                <div class="trigger">
-                                                    <div class="custom-icon-plus"><span class="sr-only">&nbsp;</span></div>
-                                                </div>
-                                                <div class="info">
-                                                    <h2 class="content-title">Awesome Project</h2>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </figure>
-                                </div>
-                                <div class="gallery-item col-md-6 col-lg-3 col-xl-3 photography">
-                                    <figure class="caption-hover-full">
-                                        <a class="fancy-pop" href="portfolio-single.html"></a>
-                                        <div class="image-wrapper"><img src="img/portfolio-22.jpg" alt="images description"></div>
-                                        <div class="image-details">
-                                            <div class="figcaption">
-                                                <div class="trigger">
-                                                    <div class="custom-icon-plus"><span class="sr-only">&nbsp;</span></div>
-                                                </div>
-                                                <div class="info">
-                                                    <h2 class="content-title">Awesome Project</h2>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </figure>
-                                </div>
-                                <div class="gallery-item col-md-6 col-lg-3 col-xl-3 ui programming">
-                                    <figure class="caption-hover-full">
-                                        <a class="fancy-pop" href="portfolio-single.html"></a>
-                                        <div class="image-wrapper"><img src="img/portfolio-23.jpg" alt="images description"></div>
-                                        <div class="image-details">
-                                            <div class="figcaption">
-                                                <div class="trigger">
-                                                    <div class="custom-icon-plus"><span class="sr-only">&nbsp;</span></div>
-                                                </div>
-                                                <div class="info">
-                                                    <h2 class="content-title">Awesome Project</h2>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </figure>
-                                </div>
-                                <div class="gallery-item col-md-6 col-lg-3 col-xl-3 ecommerce">
-                                    <figure class="caption-hover-full">
-                                        <a class="fancy-pop" href="portfolio-single.html"></a>
-                                        <div class="image-wrapper"><img src="img/portfolio-24.jpg" alt="images description"></div>
-                                        <div class="image-details">
-                                            <div class="figcaption">
-                                                <div class="trigger">
-                                                    <div class="custom-icon-plus"><span class="sr-only">&nbsp;</span></div>
-                                                </div>
-                                                <div class="info">
-                                                    <h2 class="content-title">Awesome Project</h2>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </figure>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </section>
-                    <aside class="content-block bg-gray-light">
-                        <div class="container">
-                            <div class="logo-container">
-                                <div class="owl-carousel logo-slide" id="excursion-owl-slide-4">
-                                    <div class="slide-item">
-                                        <img src="img/logo-01.png" alt="images description">
-                                    </div>
-                                    <div class="slide-item">
-                                        <img src="img/logo-02.png" alt="images description">
-                                    </div>
-                                    <div class="slide-item">
-                                        <img src="img/logo-03.png" alt="images description">
-                                    </div>
-                                    <div class="slide-item">
-                                        <img src="img/logo-04.png" alt="images description">
-                                    </div>
-                                    <div class="slide-item">
-                                        <img src="img/logo-03.png" alt="images description">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </aside>
                 </div>
                 <!--/main content wrapper -->
             </main>
         </div>
         <!-- footer of the pagse -->
-        <footer class="footer footer-v1 footer-v3">
-            <div class="pb-0 bg-white">
+        <footer class="footer footer-v1">
+            <div class="content-block footer-main">
                 <div class="container">
-                    <div class="content-block">
-                        <div class="row">
-                            <div class="col-lg-3">
-                                <div class="footer-logo">
-                                    <img src="img/logo-dark.png" alt="image-description">
-                                </div>
-                                <div class="my-4">
-                                    <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididunt</p>
-                                </div>
-                                <div class="excursion_newsletter-form newsletter-v1 mt-5">
-                                    <form action="#" method="post">
-                                        <fieldset class="clearfix">
-                                            <div class="form-group input-holder">
-                                                <input type="email" class="form-control" placeholder="Email Address">
-                                                <button type="submit" class="btn"><i class="fa fa-send"></i></button>
-                                            </div>
-                                        </fieldset>
-                                    </form>
-                                </div>
-                                <div class="mt-5">
-                                    <ul class="social-network">
-                                        <li><a href="#"><span class="icon-facebook"></span></a></li>
-                                        <li><a href="#"><span class="icon-twitter"></span></a></li>
-                                        <li><a href="#"><span class="icon-google-plus"></span></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-lg-3">
-                                <div class="widget-block">
-                                    <div class="post-block mb-4 mb-lg-0">
-                                        <h4>RECENT POSTS</h4>
-                                        <div class="post-holder">
-                                            <a href="#" class="post-link"></a>
-                                            <div class="post-avatar">
-                                                <a href="#"><img src="img/thumb.jpg" alt="image description"></a>
-                                            </div>
-                                            <div class="post-desc">
-                                                <h6><a href="#">Left Sidebar</a></h6>
-                                                <p>Jason - 3rd Feb 17 </p>
-                                            </div>
-                                        </div>
-                                        <div class="post-holder">
-                                            <a href="#" class="post-link"></a>
-                                            <div class="post-avatar">
-                                                <a href="#"><img src="img/thumb1.jpg" alt="image description"></a>
-                                            </div>
-                                            <div class="post-desc">
-                                                <h6><a href="#">Right Sidebar</a></h6>
-                                                <p>Cleona - 7th May 17 </p>
-                                            </div>
-                                        </div>
-                                        <div class="post-holder">
-                                            <a href="#" class="post-link"></a>
-                                            <div class="post-avatar">
-                                                <a href="#"><img src="img/thumb2.jpg" alt="image description"></a>
-                                            </div>
-                                            <div class="post-desc">
-                                                <h6><a href="#">Metro Style Portfolio</a></h6>
-                                                <p>Cleona - 7th May 17 </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3">
-                                <div class="widget-block">
-                                    <h4>Discover</h4>
-                                    <div class="footer-nav">
-                                        <ul>
-                                            <li><a href="#">London Web Studio</a></li>
-                                            <li><a href="#">UI / UX Design</a></li>
-                                            <li><a href="#">Concept Drawings</a></li>
-                                            <li><a href="#">CMS Integrations</a></li>
-                                            <li><a href="#">Portfolio Web Design</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3">
-                                <div class="widget-block">
-                                    <div class="instagram-widget">
-                                        <h4>INSTAGRAM</h4>
-                                        <ul>
-                                            <li>
-                                                <div class="img-block shine-effect image-zoom">
-                                                    <a href="#"><img src="img/thumb4.jpg" alt="image description"></a>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="img-block shine-effect image-zoom">
-                                                    <a href="#"><img src="img/thumb5.jpg" alt="image description"></a>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="img-block shine-effect image-zoom">
-                                                    <a href="#"><img src="img/thumb6.jpg" alt="image description"></a>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="img-block shine-effect image-zoom">
-                                                    <a href="#"><img src="img/thumb7.jpg" alt="image description"></a>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="img-block shine-effect image-zoom">
-                                                    <a href="#"><img src="img/thumb8.jpg" alt="image description"></a>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="img-block shine-effect image-zoom">
-                                                    <a href="#"><img src="img/thumb9.jpg" alt="image description"></a>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="img-block shine-effect image-zoom">
-                                                    <a href="#"><img src="img/thumb10.jpg" alt="image description"></a>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="img-block shine-effect image-zoom">
-                                                    <a href="#"><img src="img/thumb11.jpg" alt="image description"></a>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="img-block shine-effect image-zoom">
-                                                    <a href="#"><img src="img/thumb12.jpg" alt="image description"></a>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="footer-logo">
+                                <img src="img/logo.png" alt="image-description">
                             </div>
                         </div>
+                        <div class="col-md-4">
+                            <div class="footer-nav inline-nav text-center">
+                                <ul>
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Blog</a></li>
+                                    <li><a href="#">Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-4 text-right">
+                            <ul class="social-network with-text">
+                                <li><a href="#"><span class="icon-facebook"></span></a></li>
+                                <li><a href="#"><span class="icon-twitter"></span> </a></li>
+                                <li><a href="#"><span class="icon-google-plus"></span> </a></li>
+                                <li><a href="#"><span class="icon-pinterest"></span> </a></li>
+                                <li><a href="#"><span class="icon-dribbble"></span> </a></li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="footer-bottom text-center pt-0">
-                        <div class="divider-border mt-0 mb-4"></div>
-                        <p>Copyright 2023 - Excursion Travel & Trip Site Template</p>
-                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom text-center">
+                <div class="container">
+                    <p>Copyright 2023 - Excursion Travel & Trip Site Template</p>
                 </div>
             </div>
         </footer>
         <!--/footer of the page -->
     </div>
-    <!-- search form wrapper -->
+     <!-- search form wrapper -->
     <div class="search-form-wrapper">
         <a href="#" class="nav-search-link close"><span class="icon-android-close"></span></a>
         <div class="holder">
             <input type="search" class="form-control form-control-v1" placeholder="Enter Your Search">
-            <button type="submit"><span class="custom-icon-search"></span></button>
+             <button type="submit"><span class="custom-icon-search"></span></button>
         </div>
     </div>
+
     <a href="#" class="section-scroll" id="scroll-to-top"><i class="fa fa-angle-up"></i></a>
     <!-- jquery library -->
     <script src="vendors/jquery/jquery-2.1.4.min.js"></script>
@@ -800,7 +537,7 @@
     <script type="text/javascript" src="vendors/rev-slider/revolution/js/extensions/revolution.extension.video.min.js"></script>
     <!-- SNOW ADD ON -->
     <script type="text/javascript" src="vendors/rev-slider/revolution-addons/snow/revolution.addon.snow.min.js"></script>
-    <!-- revolutions slider script -->
+        <!-- revolutions slider script -->
     <script src="js/revolution.js"></script>
 </body>
 

@@ -110,8 +110,7 @@ $(document).ready(function() {
                 nav: false
             },
             992: {
-                nav: true,
-                loop: false
+                nav: true
             }
         }
     });
