@@ -73,9 +73,12 @@ Version: 		1.0.0
 	left: 0;
 	right: 0;
 	bottom: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	white-space: nowrap;
 	text-align: center;
-	background-color: var(--color-tertiary);
+	background-color: var(--body-bg);
 	z-index: 9999999999;
 	-webkit-transition: all linear .3s;
 	-o-transition: all linear .3s;
@@ -102,7 +105,14 @@ Version: 		1.0.0
 	white-space: normal;
 }
 
-
+.loader { 
+	background-image: url(../img/loader.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 80px;
+    height: 80px;
+    background-size: contain;
+}
 .content-links,.filter-nav,.social-network,.content-list,.pricing-box-v1 .plan-features ul,.icon-lists ul,.nav-wrap ul.side-nav,.nav-wrap .header-links ul,.white-overlay .nav-wrap ul.side-nav,.white-overlay .nav-wrap .header-links ul,.tag-block ul,.blog-lists .blog-list-items,.instagram-widget ul,.footer-nav ul {
 	list-style: none;
 	margin: 0;
