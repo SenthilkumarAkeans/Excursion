@@ -137,7 +137,7 @@ a,
     background: #c02127;
 }
 
-.coffee_cup:before,
+.<div class="loader"></div>:before,
 .pagination-block .pagination > li > a:focus,
 .pagination-block .pagination > li > a:hover,
 .pagination-block .pagination > li > span:focus,
@@ -158,8 +158,8 @@ a,
     background-color: #c02127;
 }
 
-.coffee_cup,
-.coffee_cup:after,
+.<div class="loader"></div>,
+.<div class="loader"></div>:after,
 .mega-menus .mega-menu-multiple .cart-list .dropdown-menu-container > .dropdown-menu .btn,
 .header-white .mega-menus .mega-menu-multiple .cart-list .dropdown-menu-container > .dropdown-menu .btn,
 .btn,
@@ -193,7 +193,7 @@ a,
     border-bottom-color: #c02127;
 }
 
-.coffee_cup:before
+.<div class="loader"></div>:before
 {
     box-shadow: 5px 0 0 0 #c02127, 5px -5px 0 0 #c02127, 10px 0 0 0 #c02127;
 }

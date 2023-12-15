@@ -135,7 +135,7 @@ a,
     background: #5645ff;
 }
 
-.coffee_cup:before,
+.<div class="loader"></div>:before,
 .pagination-block .pagination > li > a:focus,
 .pagination-block .pagination > li > a:hover,
 .pagination-block .pagination > li > span:focus,
@@ -156,8 +156,8 @@ a,
     background-color: #5645ff;
 }
 
-.coffee_cup,
-.coffee_cup:after,
+.<div class="loader"></div>,
+.<div class="loader"></div>:after,
 .mega-menus .mega-menu-multiple .cart-list .dropdown-menu-container > .dropdown-menu .btn,
 .header-white .mega-menus .mega-menu-multiple .cart-list .dropdown-menu-container > .dropdown-menu .btn,
 .btn,
@@ -191,7 +191,7 @@ a,
     border-bottom-color: #5645ff;
 }
 
-.coffee_cup:before
+.<div class="loader"></div>:before
 {
     box-shadow: 5px 0 0 0 #5645ff, 5px -5px 0 0 #5645ff, 10px 0 0 0 #5645ff;
 }

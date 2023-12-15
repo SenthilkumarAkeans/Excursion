@@ -33,7 +33,7 @@
 }
 
 /*coffee cup*/
-.coffee_cup{
+.<div class="loader"></div>{
     width: 40px;
     height: 50px;
     border: 2px $preloader-icon-border-color solid;
@@ -42,12 +42,12 @@
     margin: 36px auto;
 }
 
-.coffee_cup:after, .coffee_cup:before{
+.<div class="loader"></div>:after, .<div class="loader"></div>:before{
     position: absolute;
     content: "";
 }
 
-.coffee_cup:after {
+.<div class="loader"></div>:after {
     width: 10px;
     height: 20px;
     border: 2px $preloader-icon-border-color solid;
@@ -57,7 +57,7 @@
     top: 5px;
 }
 
-.coffee_cup:before{
+.<div class="loader"></div>:before{
     width: 3px;
     height: 10px;
     background-color: $preloader-icon-border-color;
