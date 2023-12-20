@@ -1,6 +1,6 @@
 /********************************************
  * REVOLUTION 5.2.5.1 EXTENSION - VIDEO FUNCTIONS
- * @version: 2.0.2 (25.11.2016)
+ * @version: 2.0.2 (25.11.2023)
  * @requires jquery.themepunch.revolution.js
  * @author ThemePunch
 *********************************************/

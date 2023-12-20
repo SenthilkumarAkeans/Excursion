@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*
 Name: 			main
-Author: 		excursion - (http://www.example@domain.com)
+Author: 		Excursion - (http://www.example@domain.com)
 Version: 		1.0.0
 */
 /*------------------------------------------------------------------
@@ -21,7 +21,7 @@ Version: 		1.0.0
 12. Count Block / .count-block
 13. Testimonial / .testimonial-container
 14. Logo Block / .logo-container
-15. Newsletter form / .excursion_newsletter-form
+15. Newsletter form / .Excursion_newsletter-form
 16. Post Block / .post-grid
 17. Elements / .demo-wrapper
 18. Blog
@@ -5907,7 +5907,7 @@ pre {
     vertical-align: middle; }
 
 /*------------------------------------------------------------------
-15. Newsletter form / .excursion_newsletter-form
+15. Newsletter form / .Excursion_newsletter-form
 -------------------------------------------------------------------*/
 /******* form styles *******/
 .form-control {
@@ -5958,10 +5958,10 @@ textarea:focus:-ms-input-placeholder {
 
 /* IE 10+ */
 /******* newsletter form styles *******/
-.excursion_newsletter-form {
+.Excursion_newsletter-form {
   max-width: 35.13rem;
   margin: 0 auto; }
-  .excursion_newsletter-form .btn {
+  .Excursion_newsletter-form .btn {
     -webkit-box-shadow: none;
     box-shadow: none;
     margin: 0 auto;
@@ -5970,49 +5970,49 @@ textarea:focus:-ms-input-placeholder {
     font-weight: 500;
     padding: 0.7rem 1.071rem 0.7rem;
     line-height: 1.2; }
-    .excursion_newsletter-form .btn.btn-trans-dark-gray {
+    .Excursion_newsletter-form .btn.btn-trans-dark-gray {
       line-height: 1.2;
       padding: 0.9rem 1.071rem 0.7rem;
       }
-  .excursion_newsletter-form input[type="email"] {
+  .Excursion_newsletter-form input[type="email"] {
     background: none;
    
     border-color: #55565b;
     letter-spacing: 0rem; }
     @media only screen and (min-width: 1230px) {
-      .excursion_newsletter-form input[type="email"] {
+      .Excursion_newsletter-form input[type="email"] {
         letter-spacing: 0.2429rem; } }
-  .excursion_newsletter-form ::-webkit-input-placeholder {
+  .Excursion_newsletter-form ::-webkit-input-placeholder {
     }
-  .excursion_newsletter-form :-moz-placeholder {
+  .Excursion_newsletter-form :-moz-placeholder {
     }
-  .excursion_newsletter-form ::-moz-placeholder {
+  .Excursion_newsletter-form ::-moz-placeholder {
     }
-  .excursion_newsletter-form :-ms-input-placeholder {
+  .Excursion_newsletter-form :-ms-input-placeholder {
     }
   @media only screen and (min-width: 767px) {
-    .excursion_newsletter-form .input-holder {
+    .Excursion_newsletter-form .input-holder {
       float: left;
       width: 100%;
       max-width: calc(100% - 12.38rem);
       margin: 0 1.875rem 0 0; }
-    .excursion_newsletter-form .btn {
+    .Excursion_newsletter-form .btn {
       min-width: 10.5rem; }
-      .excursion_newsletter-form .btn.btn-trans-dark-gray {
+      .Excursion_newsletter-form .btn.btn-trans-dark-gray {
         padding: 0.8rem 1.071rem 0.7rem; }
-        .excursion_newsletter-form .btn.btn-trans-dark-gray:hover {
+        .Excursion_newsletter-form .btn.btn-trans-dark-gray:hover {
           color: #fff; } }
-  .excursion_newsletter-form.newsletter-v1 {
+  .Excursion_newsletter-form.newsletter-v1 {
     max-width: 100%; }
-    .excursion_newsletter-form.newsletter-v1 input[type="email"] {
+    .Excursion_newsletter-form.newsletter-v1 input[type="email"] {
       padding-right: 4.375rem; }
-    .excursion_newsletter-form.newsletter-v1 .input-holder {
+    .Excursion_newsletter-form.newsletter-v1 .input-holder {
       float: none;
       width: 100%;
       max-width: 100%;
       margin: 0;
       position: relative; }
-    .excursion_newsletter-form.newsletter-v1 .btn {
+    .Excursion_newsletter-form.newsletter-v1 .btn {
       position: absolute;
       right: 0.9375rem;
       top: 50%;
@@ -6024,12 +6024,12 @@ textarea:focus:-ms-input-placeholder {
       -webkit-transform: translate(0, -50%);
            -o-transform: translate(0, -50%);
               transform: translate(0, -50%); }
-  .excursion_newsletter-form.newsletter-v2 {
+  .Excursion_newsletter-form.newsletter-v2 {
     max-width: 100%; }
     @media only screen and (min-width: 767px) {
-      .excursion_newsletter-form.newsletter-v2 .input-holder {
+      .Excursion_newsletter-form.newsletter-v2 .input-holder {
         max-width: calc(100% - 8.40rem); } }
-    .excursion_newsletter-form.newsletter-v2 .btn {
+    .Excursion_newsletter-form.newsletter-v2 .btn {
       min-width: 6.5rem; }
 
 /*------------------------------------------------------------------
@@ -6496,29 +6496,29 @@ a.full-width-icon {
 
 /******* content list styles *******/
 /******* contact form styles *******/
-.excursion_contact-form {
+.Excursion_contact-form {
   margin-bottom: 1.25rem; }
-  .excursion_contact-form .form-control {
+  .Excursion_contact-form .form-control {
     font: 0.875rem/1 ;
     letter-spacing: 0;
     font-weight: 500; }
-  .excursion_contact-form .form-group {
+  .Excursion_contact-form .form-group {
     margin-bottom: 1.875rem; }
   @media only screen and (min-width: 767px) {
-    .excursion_contact-form {
+    .Excursion_contact-form {
       margin-bottom: 0; }
-      .excursion_contact-form .form-group {
+      .Excursion_contact-form .form-group {
         margin-bottom: 1.875rem; } }
   @media only screen and (min-width: 991px) {
-    .excursion_contact-form .form-group {
+    .Excursion_contact-form .form-group {
       margin-bottom: 1.875rem; } }
-  .excursion_contact-form ::-webkit-input-placeholder {
+  .Excursion_contact-form ::-webkit-input-placeholder {
     }
-  .excursion_contact-form :-moz-placeholder {
+  .Excursion_contact-form :-moz-placeholder {
     }
-  .excursion_contact-form ::-moz-placeholder {
+  .Excursion_contact-form ::-moz-placeholder {
     }
-  .excursion_contact-form :-ms-input-placeholder {
+  .Excursion_contact-form :-ms-input-placeholder {
     }
 
 .contact-confirmation {
@@ -7692,7 +7692,7 @@ a.full-width-icon {
   padding-left: 3.125rem; }
   .blockquote-block.blockquote-block-v2 blockquote:before {
     position: absolute;
-    font-family: 'excursion-font-icon' !important;
+    font-family: 'Excursion-font-icon' !important;
     content: '\f2ff';
     top: 0;
     left: 0;
@@ -7716,7 +7716,7 @@ a.full-width-icon {
   color: #fff; }
   .blockquote-block.blockquote-block-v4 blockquote:before {
     position: absolute;
-    font-family: 'excursion-font-icon' !important;
+    font-family: 'Excursion-font-icon' !important;
     content: '\f2ff';
     top: 0.9375rem;
     left: 50%;
@@ -7779,11 +7779,11 @@ a.full-width-icon {
     margin: 0 auto; } }
 
 /******* date time picker styles *******/
-.excursion_datetimepicker-block .datepicker-inline {
+.Excursion_datetimepicker-block .datepicker-inline {
   width: 240px;
   margin: 0 auto; }
 
-.excursion_datetimepicker-block .input-group-addon {
+.Excursion_datetimepicker-block .input-group-addon {
   padding: 0 0 0 3px;
   line-height: 1.25;
   color: #fff;
@@ -7994,27 +7994,27 @@ a.full-width-icon {
           margin-bottom: 4.375rem; } }
 
 /******* range slider styles *******/
-.excursion_range-block .slider.slider-horizontal {
+.Excursion_range-block .slider.slider-horizontal {
   width: 100%; }
 
-.excursion_range-block .slider .slider-track {
+.Excursion_range-block .slider .slider-track {
   background: #c1c5cd;
   -webkit-box-shadow: none;
           box-shadow: none;
   border-radius: 0; }
 
-.excursion_range-block .slider .slider-selection {
+.Excursion_range-block .slider .slider-selection {
   background: #f57f17;
   -webkit-box-shadow: none;
           box-shadow: none;
   border-radius: 0; }
 
-.excursion_range-block .slider .slider-handle {
+.Excursion_range-block .slider .slider-handle {
   background: #f57f17; }
 
-.excursion_range-block .slider .slider-tick {
+.Excursion_range-block .slider .slider-tick {
   background: #c1c5cd; }
-  .excursion_range-block .slider .slider-tick.in-selection {
+  .Excursion_range-block .slider .slider-tick.in-selection {
     background: #f57f17; }
 
 .tooltip.in {
@@ -8050,16 +8050,16 @@ a.full-width-icon {
   border-right-color: #000; }
 
 /******* select boxes styles *******/
-.excursion_select-box label {
+.Excursion_select-box label {
   /*min-width: 400px;*/
   padding-left: 35px; }
 
-.excursion_select-box input[type="radio"]:empty,
-.excursion_select-box input[type="checkbox"]:empty {
+.Excursion_select-box input[type="radio"]:empty,
+.Excursion_select-box input[type="checkbox"]:empty {
   display: none; }
 
-.excursion_select-box input[type="radio"]:empty ~ label,
-.excursion_select-box input[type="checkbox"]:empty ~ label {
+.Excursion_select-box input[type="radio"]:empty ~ label,
+.Excursion_select-box input[type="checkbox"]:empty ~ label {
   position: relative;
   line-height: 20px;
   margin-top: 2em;
@@ -8069,8 +8069,8 @@ a.full-width-icon {
       -ms-user-select: none;
           user-select: none; }
 
-.excursion_select-box input[type="radio"]:empty ~ label:before,
-.excursion_select-box input[type="checkbox"]:empty ~ label:before {
+.Excursion_select-box input[type="radio"]:empty ~ label:before,
+.Excursion_select-box input[type="checkbox"]:empty ~ label:before {
   position: absolute;
   display: block;
   top: 0;
@@ -8081,14 +8081,14 @@ a.full-width-icon {
   height: 20px;
   background: #c1c5cd;
   border-radius: 50%;
-  font-family: 'excursion-font-icon';
+  font-family: 'Excursion-font-icon';
   text-align: center;
   -webkit-transition: all linear .2s;
   -o-transition: all linear .2s;
   transition: all linear .2s; }
 
-.excursion_select-box input[type="radio"]:checked ~ label:before,
-.excursion_select-box input[type="checkbox"]:checked ~ label:before {
+.Excursion_select-box input[type="radio"]:checked ~ label:before,
+.Excursion_select-box input[type="checkbox"]:checked ~ label:before {
   content: '\e489';
   color: #fff;
   background: #c1c5cd;
@@ -8096,92 +8096,92 @@ a.full-width-icon {
   -o-transition: all linear .2s;
   transition: all linear .2s; }
 
-.excursion_select-box input[type="radio"]:checked ~ label,
-.excursion_select-box input[type="checkbox"]:checked ~ label {
+.Excursion_select-box input[type="radio"]:checked ~ label,
+.Excursion_select-box input[type="checkbox"]:checked ~ label {
  
   -webkit-transition: all linear .2s;
   -o-transition: all linear .2s;
   transition: all linear .2s; }
 
-.excursion_select-box input[type="radio"]:focus ~ label:before,
-.excursion_select-box input[type="checkbox"]:focus ~ label:before {
+.Excursion_select-box input[type="radio"]:focus ~ label:before,
+.Excursion_select-box input[type="checkbox"]:focus ~ label:before {
   -webkit-box-shadow: 0 0 0 3px #999;
           box-shadow: 0 0 0 3px #999; }
 
-.excursion_select-box .excursion_select-box-default input[type="radio"]:checked ~ label:before,
-.excursion_select-box .excursion_select-box-default input[type="checkbox"]:checked ~ label:before {
+.Excursion_select-box .Excursion_select-box-default input[type="radio"]:checked ~ label:before,
+.Excursion_select-box .Excursion_select-box-default input[type="checkbox"]:checked ~ label:before {
   color: #fff;
   background: #c1c5cd; }
 
-.excursion_select-box .excursion_select-box-primary input[type="radio"]:checked ~ label:before,
-.excursion_select-box .excursion_select-box-primary input[type="checkbox"]:checked ~ label:before {
+.Excursion_select-box .Excursion_select-box-primary input[type="radio"]:checked ~ label:before,
+.Excursion_select-box .Excursion_select-box-primary input[type="checkbox"]:checked ~ label:before {
   color: #fff;
   background: #f57f17; }
 
-.excursion_select-box .excursion_select-box-secondary input[type="radio"]:checked ~ label:before,
-.excursion_select-box .excursion_select-box-secondary input[type="checkbox"]:checked ~ label:before {
+.Excursion_select-box .Excursion_select-box-secondary input[type="radio"]:checked ~ label:before,
+.Excursion_select-box .Excursion_select-box-secondary input[type="checkbox"]:checked ~ label:before {
   color: #fff;
   background: #ff6138; }
 
-.excursion_select-box .excursion_select-box-danger input[type="radio"]:checked ~ label:before,
-.excursion_select-box .excursion_select-box-danger input[type="checkbox"]:checked ~ label:before {
+.Excursion_select-box .Excursion_select-box-danger input[type="radio"]:checked ~ label:before,
+.Excursion_select-box .Excursion_select-box-danger input[type="checkbox"]:checked ~ label:before {
   color: #fff;
   background: #d9534f; }
 
-.excursion_select-box .excursion_select-box-warning input[type="radio"]:checked ~ label:before,
-.excursion_select-box .excursion_select-box-warning input[type="checkbox"]:checked ~ label:before {
+.Excursion_select-box .Excursion_select-box-warning input[type="radio"]:checked ~ label:before,
+.Excursion_select-box .Excursion_select-box-warning input[type="checkbox"]:checked ~ label:before {
   color: #fff;
   background: #f0ad4e; }
 
-.excursion_select-box .excursion_select-box-info input[type="radio"]:checked ~ label:before,
-.excursion_select-box .excursion_select-box-info input[type="checkbox"]:checked ~ label:before {
+.Excursion_select-box .Excursion_select-box-info input[type="radio"]:checked ~ label:before,
+.Excursion_select-box .Excursion_select-box-info input[type="checkbox"]:checked ~ label:before {
   color: #fff;
   background: #5bc0de; }
 
-.excursion_select-box .square-box input[type="radio"]:empty ~ label:before,
-.excursion_select-box .square-box input[type="checkbox"]:empty ~ label:before {
+.Excursion_select-box .square-box input[type="radio"]:empty ~ label:before,
+.Excursion_select-box .square-box input[type="checkbox"]:empty ~ label:before {
   border-radius: 0; }
 
-.excursion_select-box .solid-box input[type="radio"]:empty ~ label:before,
-.excursion_select-box .solid-box input[type="checkbox"]:empty ~ label:before {
+.Excursion_select-box .solid-box input[type="radio"]:empty ~ label:before,
+.Excursion_select-box .solid-box input[type="checkbox"]:empty ~ label:before {
   background: none;
   content: '\ed2e';
   font-size: 20px;
   color: #c1c5cd; }
 
-.excursion_select-box .solid-box input[type="radio"]:checked ~ label:before,
-.excursion_select-box .solid-box input[type="checkbox"]:checked ~ label:before {
+.Excursion_select-box .solid-box input[type="radio"]:checked ~ label:before,
+.Excursion_select-box .solid-box input[type="checkbox"]:checked ~ label:before {
   background: none;
   content: '\ed2d';
   font-size: 20px; }
 
-.excursion_select-box .solid-box.excursion_select-box-primary input[type="radio"]:checked ~ label:before,
-.excursion_select-box .solid-box.excursion_select-box-primary input[type="checkbox"]:checked ~ label:before {
+.Excursion_select-box .solid-box.Excursion_select-box-primary input[type="radio"]:checked ~ label:before,
+.Excursion_select-box .solid-box.Excursion_select-box-primary input[type="checkbox"]:checked ~ label:before {
   color: #f57f17; }
 
-.excursion_select-box .solid-box.excursion_select-box-secondary input[type="radio"]:checked ~ label:before,
-.excursion_select-box .solid-box.excursion_select-box-secondary input[type="checkbox"]:checked ~ label:before {
+.Excursion_select-box .solid-box.Excursion_select-box-secondary input[type="radio"]:checked ~ label:before,
+.Excursion_select-box .solid-box.Excursion_select-box-secondary input[type="checkbox"]:checked ~ label:before {
   color: #ff6138; }
 
-.excursion_select-box .solid-box.excursion_select-box-danger input[type="radio"]:checked ~ label:before,
-.excursion_select-box .solid-box.excursion_select-box-danger input[type="checkbox"]:checked ~ label:before {
+.Excursion_select-box .solid-box.Excursion_select-box-danger input[type="radio"]:checked ~ label:before,
+.Excursion_select-box .solid-box.Excursion_select-box-danger input[type="checkbox"]:checked ~ label:before {
   color: #d9534f; }
 
-.excursion_select-box .solid-box.excursion_select-box-warning input[type="radio"]:checked ~ label:before,
-.excursion_select-box .solid-box.excursion_select-box-warning input[type="checkbox"]:checked ~ label:before {
+.Excursion_select-box .solid-box.Excursion_select-box-warning input[type="radio"]:checked ~ label:before,
+.Excursion_select-box .solid-box.Excursion_select-box-warning input[type="checkbox"]:checked ~ label:before {
   color: #f0ad4e; }
 
-.excursion_select-box .solid-box.excursion_select-box-info input[type="radio"]:checked ~ label:before,
-.excursion_select-box .solid-box.excursion_select-box-info input[type="checkbox"]:checked ~ label:before {
+.Excursion_select-box .solid-box.Excursion_select-box-info input[type="radio"]:checked ~ label:before,
+.Excursion_select-box .solid-box.Excursion_select-box-info input[type="checkbox"]:checked ~ label:before {
   color: #5bc0de; }
 
-.excursion_select-box .checkbox-inline,
-.excursion_select-box .radio-inline {
+.Excursion_select-box .checkbox-inline,
+.Excursion_select-box .radio-inline {
   padding-left: 0;
   padding-right: 20px; }
 
-.excursion_select-box .checkbox-inline + .checkbox-inline,
-.excursion_select-box .radio-inline + .radio-inline {
+.Excursion_select-box .checkbox-inline + .checkbox-inline,
+.Excursion_select-box .radio-inline + .radio-inline {
   margin-left: 0; }
 
 /******* media embed styles *******/
@@ -8268,7 +8268,7 @@ a.full-width-icon {
   display: none; }
 
 .select-picker-block .glyphicon-ok:before {
-  font-family: 'excursion-font-icon';
+  font-family: 'Excursion-font-icon';
   content: '\e489'; }
 
 .select-picker-block .dropup .dropdown-menu {

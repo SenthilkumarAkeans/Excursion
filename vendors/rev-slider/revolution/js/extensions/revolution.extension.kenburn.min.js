@@ -1,6 +1,6 @@
 /********************************************
  * REVOLUTION 5.0 EXTENSION - KEN BURN
- * @version: 1.2 (2.11.2016)
+ * @version: 1.2 (2.11.2023)
  * @requires jquery.themepunch.revolution.js
  * @author ThemePunch
 *********************************************/

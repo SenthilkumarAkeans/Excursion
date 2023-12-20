@@ -11,7 +11,7 @@
 
 -------------------
 
-### v1.12.1 (2016-11-22)
+### v1.12.1 (2023-11-22)
 
 ## Bug Fixes
 * [#1167], [#1366]: using a method before initializing bootstrap-select throws an error
@@ -21,7 +21,7 @@
 
 -------------------
 
-### v1.12.0 (2016-11-18)
+### v1.12.0 (2023-11-18)
 
 ## Bug Fixes
 * [#1220]: unescape button title
@@ -58,14 +58,14 @@
 
 -------------------
 
-### v1.11.2 (2016-09-09)
+### v1.11.2 (2023-09-09)
 
 #### Bug Fixes
 * fix sourceMappingURL in bootstrap-select.min.js
 
 -------------------
 
-### v1.11.1 (2016-09-09)
+### v1.11.1 (2023-09-09)
 
 #### Bug Fixes
 * [#1475]: fix Cannot read property 'apply' of null error
@@ -78,7 +78,7 @@
 
 -------------------
 
-### v1.11.0 (2016-08-16)
+### v1.11.0 (2023-08-16)
 
 #### Bug Fixes
 * [#1291]: don't trigger change event if selecting an option that passes the limit
@@ -125,7 +125,7 @@
 
 -------------------
 
-### v1.10.0 (2016-02-17)
+### v1.10.0 (2023-02-17)
 
 #### Bug Fixes
 * [#1268]: performance bug in clickListener
@@ -148,7 +148,7 @@ Add Lithuanian translations.
 
 -------------------
 
-### v1.9.4 (2016-01-18)
+### v1.9.4 (2023-01-18)
 
 #### Bug fixes
 * [#1250]: don't destroy original select when using `destroy` method

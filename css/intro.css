@@ -4955,7 +4955,7 @@ pre {
     vertical-align: middle; }
 
 /*------------------------------------------------------------------
-15. Newsletter form / .excursion_newsletter-form
+15. Newsletter form / .Excursion_newsletter-form
 -------------------------------------------------------------------*/
 /******* form styles *******/
 .form-control {
@@ -5006,10 +5006,10 @@ textarea:focus:-ms-input-placeholder {
 
 /* IE 10+ */
 /******* newsletter form styles *******/
-.excursion_newsletter-form {
+.Excursion_newsletter-form {
   max-width: 35.13rem;
   margin: 0 auto; }
-  .excursion_newsletter-form .btn {
+  .Excursion_newsletter-form .btn {
     -webkit-box-shadow: none;
     box-shadow: none;
     margin: 0 auto;
@@ -5018,49 +5018,49 @@ textarea:focus:-ms-input-placeholder {
     font-weight: 500;
     padding: 0.7rem 1.071rem 0.7rem;
     line-height: 1.2; }
-    .excursion_newsletter-form .btn.btn-trans-dark-gray {
+    .Excursion_newsletter-form .btn.btn-trans-dark-gray {
       line-height: 1.2;
       padding: 0.9rem 1.071rem 0.7rem;
       }
-  .excursion_newsletter-form input[type="email"] {
+  .Excursion_newsletter-form input[type="email"] {
     background: none;
    
     border-color: #55565b;
     letter-spacing: 0rem; }
     @media only screen and (min-width: 1230px) {
-      .excursion_newsletter-form input[type="email"] {
+      .Excursion_newsletter-form input[type="email"] {
         letter-spacing: 0.2429rem; } }
-  .excursion_newsletter-form ::-webkit-input-placeholder {
+  .Excursion_newsletter-form ::-webkit-input-placeholder {
     }
-  .excursion_newsletter-form :-moz-placeholder {
+  .Excursion_newsletter-form :-moz-placeholder {
     }
-  .excursion_newsletter-form ::-moz-placeholder {
+  .Excursion_newsletter-form ::-moz-placeholder {
     }
-  .excursion_newsletter-form :-ms-input-placeholder {
+  .Excursion_newsletter-form :-ms-input-placeholder {
     }
   @media only screen and (min-width: 767px) {
-    .excursion_newsletter-form .input-holder {
+    .Excursion_newsletter-form .input-holder {
       float: left;
       width: 100%;
       max-width: calc(100% - 12.38rem);
       margin: 0 1.875rem 0 0; }
-    .excursion_newsletter-form .btn {
+    .Excursion_newsletter-form .btn {
       min-width: 10.5rem; }
-      .excursion_newsletter-form .btn.btn-trans-dark-gray {
+      .Excursion_newsletter-form .btn.btn-trans-dark-gray {
         padding: 0.8rem 1.071rem 0.7rem; }
-        .excursion_newsletter-form .btn.btn-trans-dark-gray:hover {
+        .Excursion_newsletter-form .btn.btn-trans-dark-gray:hover {
           color: #fff; } }
-  .excursion_newsletter-form.newsletter-v1 {
+  .Excursion_newsletter-form.newsletter-v1 {
     max-width: 100%; }
-    .excursion_newsletter-form.newsletter-v1 input[type="email"] {
+    .Excursion_newsletter-form.newsletter-v1 input[type="email"] {
       padding-right: 4.375rem; }
-    .excursion_newsletter-form.newsletter-v1 .input-holder {
+    .Excursion_newsletter-form.newsletter-v1 .input-holder {
       float: none;
       width: 100%;
       max-width: 100%;
       margin: 0;
       position: relative; }
-    .excursion_newsletter-form.newsletter-v1 .btn {
+    .Excursion_newsletter-form.newsletter-v1 .btn {
       position: absolute;
       right: 0.9375rem;
       top: 50%;
@@ -5072,12 +5072,12 @@ textarea:focus:-ms-input-placeholder {
       -webkit-transform: translate(0, -50%);
            -o-transform: translate(0, -50%);
               transform: translate(0, -50%); }
-  .excursion_newsletter-form.newsletter-v2 {
+  .Excursion_newsletter-form.newsletter-v2 {
     max-width: 100%; }
     @media only screen and (min-width: 767px) {
-      .excursion_newsletter-form.newsletter-v2 .input-holder {
+      .Excursion_newsletter-form.newsletter-v2 .input-holder {
         max-width: calc(100% - 8.40rem); } }
-    .excursion_newsletter-form.newsletter-v2 .btn {
+    .Excursion_newsletter-form.newsletter-v2 .btn {
       min-width: 6.5rem; }
 
 /*------------------------------------------------------------------

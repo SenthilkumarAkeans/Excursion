@@ -1,6 +1,6 @@
 /********************************************
  * REVOLUTION 5.2 EXTENSION - NAVIGATION
- * @version: 1.3.2 (25.10.2016)
+ * @version: 1.3.2 (25.10.2023)
  * @requires jquery.themepunch.revolution.js
  * @author ThemePunch
 *********************************************/

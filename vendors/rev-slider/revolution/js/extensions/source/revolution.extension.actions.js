@@ -1,6 +1,6 @@
 /********************************************
  * REVOLUTION 5.3 EXTENSION - ACTIONS
- * @version: 2.0.6 (15.12.2016)
+ * @version: 2.0.6 (15.12.2023)
  * @requires jquery.themepunch.revolution.js
  * @author ThemePunch
 *********************************************/

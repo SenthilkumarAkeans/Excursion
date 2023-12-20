@@ -489,7 +489,7 @@ return Item;
  * or Packery Commercial License for commercial use
  *
  * http://packery.metafizzy.co
- * Copyright 2016 Metafizzy
+ * Copyright 2023Metafizzy
  */
 
 ( function( window, factory ) {

@@ -39,9 +39,9 @@ $(document).ready(function() {
     // sticky header setup
     $win.scroll(function() {
         if ($(this).scrollTop() > 42) {
-            $('#excursion-main-header').addClass("sticky-nav");
+            $('#Excursion-main-header').addClass("sticky-nav");
         } else {
-            $('#excursion-main-header').removeClass("sticky-nav");
+            $('#Excursion-main-header').removeClass("sticky-nav");
         }
     });
 
@@ -76,7 +76,7 @@ $(document).ready(function() {
     });
 
     // Full Width No Gutter Owl Slider
-    $("#excursion-owl-slide-1").owlCarousel({
+    $("#Excursion-owl-slide-1").owlCarousel({
         loop: true,
         margin: 0,
         responsiveClass: true,
@@ -97,7 +97,7 @@ $(document).ready(function() {
     });
 
     // Single Owl Slider
-    $("#excursion-owl-slide-2").owlCarousel({
+    $("#Excursion-owl-slide-2").owlCarousel({
         loop: true,
         responsiveClass: true,
         items: 1,
@@ -116,7 +116,7 @@ $(document).ready(function() {
     });
 
     // Testimonial Owl Slider
-    $("#excursion-owl-slide-3").owlCarousel({
+    $("#Excursion-owl-slide-3").owlCarousel({
         loop: true,
         margin: 30,
         responsiveClass: true,
@@ -140,7 +140,7 @@ $(document).ready(function() {
     });
 
     // Partner Logo Owl Slider
-    $("#excursion-owl-slide-4").owlCarousel({
+    $("#Excursion-owl-slide-4").owlCarousel({
         loop: true,
         margin: 76,
         autoplay: true,

@@ -1,7 +1,7 @@
 /******* select boxes styles *******/
 
 // select boxes styles
-.excursion_select-box {
+.Excursion_select-box {
     label {
         /*min-width: 400px;*/
         padding-left: 35px;
@@ -30,7 +30,7 @@
         height: 20px;
         background: $select-box-before-bg-color;
         border-radius: 50%;
-        font-family: 'excursion-font-icon';
+        font-family: 'Excursion-font-icon';
         text-align: center;
         transition: all linear .2s;
     }
@@ -50,33 +50,33 @@
     input[type="checkbox"]:focus ~ label:before {
         box-shadow: 0 0 0 3px #999;
     }
-    .excursion_select-box-default input[type="radio"]:checked ~ label:before,
-    .excursion_select-box-default input[type="checkbox"]:checked ~ label:before {
+    .Excursion_select-box-default input[type="radio"]:checked ~ label:before,
+    .Excursion_select-box-default input[type="checkbox"]:checked ~ label:before {
         color: $select-box-before-checked-color;
         background: $select-box-before-checked-bg-color;
     }
-    .excursion_select-box-primary input[type="radio"]:checked ~ label:before,
-    .excursion_select-box-primary input[type="checkbox"]:checked ~ label:before {
+    .Excursion_select-box-primary input[type="radio"]:checked ~ label:before,
+    .Excursion_select-box-primary input[type="checkbox"]:checked ~ label:before {
         color: $select-box-before-checked-color;
         background: $primary-color;
     }
-    .excursion_select-box-secondary input[type="radio"]:checked ~ label:before,
-    .excursion_select-box-secondary input[type="checkbox"]:checked ~ label:before {
+    .Excursion_select-box-secondary input[type="radio"]:checked ~ label:before,
+    .Excursion_select-box-secondary input[type="checkbox"]:checked ~ label:before {
         color: $select-box-before-checked-color;
         background: $secondary-color;
     }
-    .excursion_select-box-danger input[type="radio"]:checked ~ label:before,
-    .excursion_select-box-danger input[type="checkbox"]:checked ~ label:before {
+    .Excursion_select-box-danger input[type="radio"]:checked ~ label:before,
+    .Excursion_select-box-danger input[type="checkbox"]:checked ~ label:before {
         color: $select-box-before-checked-color;
         background: #d9534f;
     }
-    .excursion_select-box-warning input[type="radio"]:checked ~ label:before,
-    .excursion_select-box-warning input[type="checkbox"]:checked ~ label:before {
+    .Excursion_select-box-warning input[type="radio"]:checked ~ label:before,
+    .Excursion_select-box-warning input[type="checkbox"]:checked ~ label:before {
         color: $select-box-before-checked-color;
         background: #f0ad4e;
     }
-    .excursion_select-box-info input[type="radio"]:checked ~ label:before,
-    .excursion_select-box-info input[type="checkbox"]:checked ~ label:before {
+    .Excursion_select-box-info input[type="radio"]:checked ~ label:before,
+    .Excursion_select-box-info input[type="checkbox"]:checked ~ label:before {
         color: $select-box-before-checked-color;
         background: #5bc0de;
     }
@@ -100,24 +100,24 @@
             content: '\ed2d';
             font-size: 20px;
         }
-        &.excursion_select-box-primary input[type="radio"]:checked ~ label:before,
-        &.excursion_select-box-primary input[type="checkbox"]:checked ~ label:before {
+        &.Excursion_select-box-primary input[type="radio"]:checked ~ label:before,
+        &.Excursion_select-box-primary input[type="checkbox"]:checked ~ label:before {
             color: $primary-color;
         }
-        &.excursion_select-box-secondary input[type="radio"]:checked ~ label:before,
-        &.excursion_select-box-secondary input[type="checkbox"]:checked ~ label:before {
+        &.Excursion_select-box-secondary input[type="radio"]:checked ~ label:before,
+        &.Excursion_select-box-secondary input[type="checkbox"]:checked ~ label:before {
             color: $secondary-color;
         }
-        &.excursion_select-box-danger input[type="radio"]:checked ~ label:before,
-        &.excursion_select-box-danger input[type="checkbox"]:checked ~ label:before {
+        &.Excursion_select-box-danger input[type="radio"]:checked ~ label:before,
+        &.Excursion_select-box-danger input[type="checkbox"]:checked ~ label:before {
             color: #d9534f;
         }
-        &.excursion_select-box-warning input[type="radio"]:checked ~ label:before,
-        &.excursion_select-box-warning input[type="checkbox"]:checked ~ label:before {
+        &.Excursion_select-box-warning input[type="radio"]:checked ~ label:before,
+        &.Excursion_select-box-warning input[type="checkbox"]:checked ~ label:before {
             color: #f0ad4e;
         }
-        &.excursion_select-box-info input[type="radio"]:checked ~ label:before,
-        &.excursion_select-box-info input[type="checkbox"]:checked ~ label:before {
+        &.Excursion_select-box-info input[type="radio"]:checked ~ label:before,
+        &.Excursion_select-box-info input[type="checkbox"]:checked ~ label:before {
             color: #5bc0de;
         }
     }

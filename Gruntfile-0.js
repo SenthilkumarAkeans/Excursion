@@ -274,7 +274,7 @@ var PathConfig = require('./grunt-settings.js');
           src : ['*.html','<%= config.cssDir %>*.css', '*.css']
         },
         options: {
-            proxy: 'local.excursion-new.net', //our PHP server
+            proxy: 'local.Excursion-new.net', //our PHP server
             port: 8080, // our new port
             open: true,
             watchTask: true

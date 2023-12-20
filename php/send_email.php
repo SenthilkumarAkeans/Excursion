@@ -2,7 +2,7 @@
 if(isset($_REQUEST['action']) && $_REQUEST['action'] == 'sendEmail')
 {
 	$to = 'support@mail.com';
-	$subject = 'excursion Contact Form';
+	$subject = 'Excursion Contact Form';
 	$send_arr = array();	
 	
 	$headers = "MIME-Version: 1.0" . "\r\n";
