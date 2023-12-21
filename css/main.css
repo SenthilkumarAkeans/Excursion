@@ -1,6 +1,6 @@
 /*
 Name: 			Excursion
-Author: 		Excursion - (http://www.example@domain.com)
+Author: 		Excursion
 Version: 		1.0.0
 */
 
@@ -27,6 +27,9 @@ Version: 		1.0.0
 18. Blog
 19. Footer
 20. Utilities
+21. Home ii
+22. Home iii
+23. Responsive
 -----------------------------------------------------*/
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
@@ -607,10 +610,7 @@ Version: 		1.0.0
 }
 
 
-/*Home ii*/
 
-
-/**/
 
 select.bs-select-hidden,select.selectpicker {
 	display: none !important;
@@ -1007,24 +1007,14 @@ h1,h2,h3,h4,h5,h6 {
 	line-height: 1.1;
 	font-weight: 600;
 }
-
 h1 {
 	font-size: 1.875rem;
-	line-height: 1.2;
 }
-
 h2 {
-	font-size: 1.5rem;
-	line-height: 1.2;
-	font-weight: 700;
-color: var(--color-body);
-	
+	font-size: 1.5rem;	
 }
-
 h3 {
 	font-size: 1.125rem;
-	line-height: 1.2;
-	font-weight: 700;
 }
 
 .cursive-style {
@@ -3630,7 +3620,8 @@ em.state-invalid {
 }
 .main-header .navbar .navbar-nav li a {
 	color: var(--color-button-hover);
-	padding: 2.25rem 1.5rem;
+	padding: 15px 30px;
+	font-size: 20px;
 	display: inline-block;
 }
 
@@ -5101,14 +5092,14 @@ color: var(--color-body);
 .content-slot span {
 	font-size: 1.125rem;
 	line-height: 1.2;
-color: var(--color-body);
+	color: var(--color-body);
 	display: inline-block;
 }
 
 .content-slot .text-wrap {
-	padding: 2.625rem 0;
 	margin-left: 0;
 	margin-right: 0;
+	padding: 100px 0;
 }
 
 .alternate-block .row:nth-child(even) .text-wrap {
@@ -5116,24 +5107,11 @@ color: var(--color-body);
 	margin-right: 8%;
 }
 
-.alternate-block-v2 h3 {
-	font-size: 1.875rem;
-	line-height: 1.2;
-color: var(--color-body);
-	margin-bottom: 1.875rem;
-}
 
 .alternate-block-v2 .row:nth-child(odd) .text-wrap {
 	margin-left: auto;
 	margin-right: 8%;
 }
-
-.alternate-block-v2 .btn-primary {
-	background: #55565b;
-	border-color: #55565b;
-	min-width: 13.44rem;
-}
-
 .masonary-block .gallery-item {
 	margin-top: 2.143rem;
 }
@@ -6536,8 +6514,7 @@ color: var(--color-body);
 .count-block .number {
 	font-weight: 100;
 	font-size: 1.25rem;
-	line-height: 1.2;
-	color: #c1c5cd;
+	color: var(--color-light);
 }
 
 .count-block .text {
@@ -8217,7 +8194,7 @@ color: var(--color-body);
 	-webkit-transform: translate(0, -50%);
 	-o-transform: translate(0, -50%);
 	transform: translate(0, -50%);
-	font-size: 5rem;
+	font-size: 30px;
 	color: var(--color-link);
 }
 
@@ -10407,8 +10384,9 @@ color: var(--color-body);
 }
 
 .footer .footer-bottom {
-	padding: 30px 0;
-	color: var(--color-button-hover);
+    padding: 15px 0;
+    color: var(--color-button-hover);
+    font-size: 14px;
 }
 
 .footer .footer-bottom p {
@@ -10791,6 +10769,47 @@ color: var(--color-body);
 	border-radius: 50%;
 }
 
+/*------------------------------------------------------------------
+21. Home ii
+-------------------------------------------------------------------*/
+.home-ii.banner {
+	position: relative;
+	background: url(../img/Blog_Image_18.jpg) no-repeat center;
+	padding: 240px 0 140px;
+}
+.home-ii.banner:before {
+    content: '';
+    background: rgb(0 0 0 / 50%);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.banner-text {
+    max-width: 750px;
+}
+.home-ii.banner .banner-text > * { color: #fff; }
+.home-ii.banner form {
+	border-radius: 15px;
+    box-shadow: 0px 0px 0px 10px rgb(255 255 255 / 50%);
+    padding: 50px;
+    background-color: var(--body-bg);
+    display: grid;
+    gap: 30px;
+}
+.home-ii.banner form input:not([type="submit"]), 
+.home-ii.banner form textarea { color: var(--color-body); border: none; outline: none; border-bottom:1px solid var(--color-border);}
+.home-ii.banner form{ display: grid;}
+
+
+/*------------------------------------------------------------------
+22. Home iii
+-------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+23. Responsive
+-------------------------------------------------------------------*/
 @media (max-width: 1200px) {
 	.main-header.header-white.transparent .navbar .navbar-nav > li > a {
 		padding:2.25rem 1.5rem 2.25rem 0.5rem;
@@ -10898,11 +10917,6 @@ color: var(--color-body);
 	.content-slot span {
 		font-size: 1.125rem;
 	}
-
-	.alternate-block-v2 h3 {
-		font-size: 2.25rem;
-	}
-
 	.big-font {
 		font-size: .9375rem;
 	}
@@ -11067,10 +11081,6 @@ color: var(--color-body);
 
 	.content-slot span {
 		font-size: 1.25rem;
-	}
-
-	.alternate-block-v2 h3 {
-		font-size: 2.625rem;
 	}
 
 	.big-font {
@@ -11248,17 +11258,8 @@ color: var(--color-body);
 		margin-bottom: 3.125rem;
 	}
 
-	.content-slot span {
-		margin-top: 1.875rem;
-	}
-
 	.alternate-block-v2 h3 {
 		margin: 0;
-	}
-
-	.alternate-block-v2 .text-wrap {
-		padding-top: 5rem;
-		padding-bottom: 5rem;
 	}
 
 	.element-type {
@@ -11672,10 +11673,6 @@ color: var(--color-body);
 		font-size: 1.375rem;
 	}
 
-	.alternate-block-v2 h3 {
-		font-size: 3rem;
-	}
-
 	.big-font {
 		font-size: 1.063rem;
 	}
@@ -11913,14 +11910,9 @@ color: var(--color-body);
 	.information-block .info-block {
 		padding: 5.25rem 1.75rem;
 	}
-	.content-slot p {
-		margin-bottom: 2rem;
-	}
-
 	.content-slot .text-wrap {
 		max-width: 31.25rem;
 		margin-left: 8%;
-		padding: 6rem 0;
 	}
 
 	.content-slot .row:nth-child(even) {
@@ -11933,11 +11925,6 @@ color: var(--color-body);
 
 	.alternate-block-v2 h3 {
 		margin: 0;
-	}
-
-	.alternate-block-v2 .text-wrap {
-		padding-top: 7.5rem;
-		padding-bottom: 7.5rem;
 	}
 
 	.portfolio-block .no-gutters {
@@ -12301,11 +12288,6 @@ color: var(--color-body);
 	.content-slot span {
 		font-size: 1.5rem;
 	}
-
-	.alternate-block-v2 h3 {
-		font-size: 3.375rem;
-	}
-
 	.big-font {
 		font-size: 1.125rem;
 	}
@@ -12459,11 +12441,6 @@ color: var(--color-body);
 		padding-bottom: 9.375rem;
 	}
 
-	.alternate-block-v2 .text-wrap {
-		padding-top: 10.625rem;
-		padding-bottom: 10.625rem;
-	}
-
 	.picture-item {
 		margin-top: 1.875rem;
 	}
@@ -12539,10 +12516,6 @@ color: var(--color-body);
 	}
 
 	.visual-subtitle {
-		font-size: 3.75rem;
-	}
-
-	.alternate-block-v2 h3 {
 		font-size: 3.75rem;
 	}
 
