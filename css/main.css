@@ -6377,6 +6377,7 @@ color: var(--color-body);
 .logo-container .owl-carousel .owl-item img {
 	border: 1px solid var(--color-border);
     padding: 40px;
+	border-radius: var(--border-radius);
 }
 .grayscale-effect:hover img,
 .logo-container .owl-carousel .owl-item:hover img {
