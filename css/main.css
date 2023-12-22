@@ -5454,7 +5454,6 @@ color: var(--color-body);
 }
 
 .ico-box .icon {
-	margin-bottom: 1.5625rem;
 	color: var(--color-body);
 	font-size: 2.8125rem;
 	line-height: 1;
@@ -5743,7 +5742,6 @@ color: var(--color-body);
 .quotation-block {
 	background-image: url('../img/parallax-bg.jpg');
 }
-
 .count-block {
 	background-image: url('../img/count-block.jpg');
 }
@@ -5765,7 +5763,7 @@ color: var(--color-body);
 }
 
 .information-block {
-	background-image: url('../img/Blog_Image_15.jpg');
+	background-image: url('../img/home-2-9.jpg');
 }
 
 .btn-wrapper-demo {
@@ -5783,6 +5781,10 @@ color: var(--color-body);
 .intro-footer-block {
 	background-image: url('../img/Dest_B23516_39.jpg');
 }
+.home-ii-bg-1 {
+	background-image: url('../img/home-2-3.jpg');
+}
+
 
 /*------------------------------------------------------------------
 10. Gallery list / .gallery-list
@@ -6479,12 +6481,6 @@ color: var(--color-body);
 color: var(--color-body);
 }
 
-.sub {
-	font-size: .875rem;
-	line-height: 1.875rem;
-	color: var(--color-button-hover);
-	font-style: italic;
-}
 
 /*------------------------------------------------------------------
 12. Count Block / .count-block
@@ -11968,7 +11964,7 @@ color: var(--color-body);
 	.flipped-box .ico-box,
 .flipped-box .front-box,
 .flipped-box .back-box {
-		min-height: 11.25rem;
+		min-height: 12.25rem;
 	}
 
 	.picture-item {
