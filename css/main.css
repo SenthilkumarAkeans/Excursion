@@ -9769,13 +9769,13 @@ color: var(--color-body);
 .search-form-wrapper.fullscreen-search .holder input[type='search'] {
 	padding-right: 1.5rem;
 }
-
+.dark-text > h1, .dark-text > h2{ color: var(--color-body) !important;}
 .search-form-wrapper.dark-text .form-control,
 .search-form-wrapper.dark-text input,
 .search-form-wrapper.dark-text textarea,
 .search-form-wrapper.dark-text button,
 .search-form-wrapper.dark-text .close {
-color: var(--color-body);
+	color: var(--color-body);
 	border-color: #55565b;
 }
 
