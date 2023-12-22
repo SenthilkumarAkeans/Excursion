@@ -155,8 +155,10 @@ Version: 		1.0.0
 .banner .carousel-item.slide-2{ background-image: url(../img/slide-2.jpg);}
 .banner .carousel-item.slide-3{ background-image: url(../img/slide-3.jpg);}
 .banner .carousel-item.slide-4{ background-image: url(../img/slide-4.jpg);}
-.banner .carousel-item.slide-1 .caption { text-align: left;}
-.banner .carousel-item.slide-3 .caption { text-align: right;}
+.banner .carousel-item.slide-5{ background-image: url(../img/slide-5.jpg);}
+.banner .carousel-item.slide-6{ background-image: url(../img/slide-6.jpg);}
+.banner .carousel-item.text-left .caption { text-align: left;}
+.banner .carousel-item.text-right .caption { text-align: right;}
 
 .banner .carousel-inner {
 	width: 100%;
@@ -5470,14 +5472,8 @@ color: var(--color-body);
 	margin-top: 1.875rem;
 }
 
-.ico-box .link-holder .link-more {
-	color: #212121;
-	font-size: .875rem;
-	
-}
-
 .ico-box .link-holder .link-more:hover {
-	color: var(--color-secondary);
+	color: var(--color-tertiary	);
 }
 
 .ico-box.dark-hover:before {
@@ -6902,7 +6898,7 @@ color: var(--color-body);
 }
 
 .post-text-block .post-meta {
-	margin-top: 2rem;
+	margin-top: 1rem;
 }
 
 .post-text-block h2 {
@@ -7060,6 +7056,7 @@ a.full-width-icon {
 	display: block;
 	color: var(--color-button-hover);
 	background: none;
+	text-align: center;
 }
 
 a.full-width-icon .social-icon {
@@ -7093,7 +7090,7 @@ a.full-width-icon .social-text {
 }
 
 a.full-width-icon.fb {
-	background: var(--color-secondary);
+	background: #1877F2;
 }
 
 a.full-width-icon.twt {
@@ -10643,7 +10640,7 @@ color: var(--color-body);
 }
 
 .bg-gray-light {
-	background: #f9f9f9;
+    background: var(--color-light);
 }
 
 .bg-white {
