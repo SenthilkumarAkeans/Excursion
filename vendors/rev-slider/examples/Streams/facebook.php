@@ -48,7 +48,7 @@
 	<!-- REVOLUTION NAVIGATION STYLES -->
 	<link rel='stylesheet' type='text/css' href='../../revolution/css/navigation.css'>	
 
-	<!-- REVOLUTION JS FILES -->
+	
 	<script type='text/javascript' src='../../revolution/js/jquery.themepunch.tools.min.js?rev=5.0'></script>
 	<script type='text/javascript' src='../../revolution/js/jquery.themepunch.revolution.min.js?rev=5.0'></script>
 

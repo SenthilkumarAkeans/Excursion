@@ -3695,7 +3695,6 @@ em.state-invalid {
 }
 
 .main-header .navbar .navbar-nav li a {
-	color: var(--color-button-hover);
 	padding: 33px 30px;
 	display: inline-block;
 }
@@ -3724,6 +3723,7 @@ em.state-invalid {
 
 .main-header .navbar .navbar-nav li .dropdown-menu li {
 	padding: 5px 10px;
+    margin-right: 0 !important;
 }
 
 .main-header .navbar .navbar-nav li .dropdown-menu li>a {
@@ -7226,13 +7226,19 @@ a.full-width-icon.twt {
 }
 
 a.full-width-icon.pin {
-	background: #bd081c;
+	background: 	#E60023;
 }
 
 a.full-width-icon.gp {
 	background: #dd4b39;
 }
-
+a.full-width-icon.ins {
+	background: #f09433; 
+	background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+	background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+	background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
 a.full-width-icon:hover .social-icon {
 	opacity: 1;
 	top: 0;
@@ -8143,29 +8149,6 @@ a.full-width-icon:hover .social-text {
 	color: #212121;
 }
 
-.accordion-container.accordion-secondary .panel-icon .card .card-header h5 a:before {
-	font-family: 'icomoon' !important;
-	font-style: normal;
-	font-weight: normal;
-	font-variant: normal;
-	text-transform: none;
-	line-height: 1;
-	/* Better Font Rendering =========== */
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	position: absolute;
-	top: 50%;
-	left: -1.1rem;
-	-webkit-transform: translate(0, -50%);
-	-o-transform: translate(0, -50%);
-	transform: translate(0, -50%);
-	content: '\e923';
-	-webkit-transition: all linear .3s;
-	-o-transition: all linear .3s;
-	transition: all linear .3s;
-	font-size: 1rem;
-}
-
 .accordion-container.accordion-secondary .panel-icon .card .card-header h5 a[aria-expanded='true'] {
 	background: none;
 }
@@ -8327,6 +8310,7 @@ a.full-width-icon:hover .social-text {
 	transform: translate(0, -50%);
 	font-size: 30px;
 	color: var(--color-link);
+	padding: 10px;
 }
 
 .owl-carousel .owl-nav .owl-prev.disabled,
@@ -11029,15 +11013,11 @@ a.full-width-icon:hover .social-text {
 22. Home iii
 -------------------------------------------------------------------*/
 
+
 /*------------------------------------------------------------------
 23. Responsive
 -------------------------------------------------------------------*/
-@media (max-width: 1200px) {
-	.main-header.header-white.transparent .navbar .navbar-nav>li>a {
-		padding: 2.25rem 1.5rem 2.25rem 0.5rem;
-	}
 
-}
 
 @media only screen and (min-width: 576px) {
 	.pricing-block .col-wrap {
@@ -12303,15 +12283,17 @@ a.full-width-icon:hover .social-text {
 		margin-bottom: 0;
 	}
 }
+@media (max-width: 1200px) {
+	.main-header.header-white.transparent .navbar .navbar-nav>li>a {
+		padding: 2.25rem 1.5rem 2.25rem 0.5rem;
+	}
 
+}
 @media only screen and (min-width: 992px) and (max-width: 991px) {
 	.main-header.header-logo-center .navbar .navbar-nav>li a {
 		padding-left: .4rem;
 		padding-right: .4rem;
 	}
-}
-
-@media only screen and (min-width: 992px) and (min-width: 991px) {
 	.main-header.header-logo-center .navbar .navbar-nav>li.p-static {
 		position: relative;
 	}
@@ -12794,7 +12776,7 @@ a.full-width-icon:hover .social-text {
 	}
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 992px) {
 	.main-header.header-logo-center~.no-banner {
 		padding-top: 3.17rem;
 	}
@@ -12814,11 +12796,6 @@ a.full-width-icon:hover .social-text {
 	.main-header .navbar {
 		min-height: 3.875rem;
 	}
-
-	.main-header .navbar .navbar-nav li {
-		font-size: .65rem;
-	}
-
 
 	.main-header .navbar-pos-search a {
 		top: .3rem;
@@ -12863,10 +12840,6 @@ a.full-width-icon:hover .social-text {
 		padding: .4rem .9375rem;
 		line-height: 2.1;
 		display: block;
-	}
-
-	.main-header .navbar .navbar-nav li a:hover {
-		background: #272727;
 	}
 
 	.main-header .navbar .navbar-nav li .dropdown-parent>a {
@@ -12960,7 +12933,7 @@ a.full-width-icon:hover .social-text {
 
 	.main-header .navbar-toggler {
 		padding: 0;
-		top: 13px;
+		top: 22px;
 		margin-top: 0;
 		outline: none;
 		cursor: pointer;
@@ -13043,10 +13016,6 @@ a.full-width-icon:hover .social-text {
 		border-color: whitesmoke;
 	}
 
-	.main-header.header-white .navbar .navbar-nav li a:hover {
-		background: #fbfbfb;
-	}
-
 	.main-header.header-white .navbar .navbar-nav li .dropdown-menu .l-block {
 		background: #ebebeb;
 	}
@@ -13112,9 +13081,12 @@ a.full-width-icon:hover .social-text {
 
 @media (max-width: 991px) {
 
-	.mega-menus .mega-menu-multiple .nav>li>a {
-		padding-left: 15px;
-		padding-right: 15px;
+	.main-header.header-white.transparent .navbar .navbar-nav>li>a {
+	    padding: 1rem 1.5rem 1rem 0.5rem;
+		color: var(--color-body);
+	}
+	.main-header.header-white.transparent .navbar .navbar-nav>li>a:hover {
+		color: var(--color-link);
 	}
 
 	.mega-menus .navbar-default-light .navbar-nav {

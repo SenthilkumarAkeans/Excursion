@@ -61,7 +61,7 @@ $(document).ready(function() {
         responsiveClass: true,
         items: 1,
         nav: false,
-        navText: ['<span class="icon-angle-left"></span>', '<span class="icon-angle-right"></span>'],
+        navText: ['<span class="fa-solid fa-arrow-left"></span>', '<span class="fa-solid fa-arrow-right"></span>'],
         responsive: {
             767: {
                 items: 2,
@@ -102,7 +102,7 @@ $(document).ready(function() {
         responsiveClass: true,
         items: 1,
         nav: false,
-        navText: ['<span class="icon-angle-left"></span>', '<span class="icon-angle-right"></span>'],
+        navText: ['<span class="fa-solid fa-arrow-left"></span>', '<span class="fa-solid fa-arrow-right"></span>'],
         dots: false,
         autoplay: true,
         responsive: {
@@ -125,7 +125,7 @@ $(document).ready(function() {
         center: true,
         animateOut: 'slideOutDown',
         animateIn: 'flipInX',
-        navText: ['<span class="icon-angle-left"></span>', '<span class="icon-angle-right"></span>'],
+        navText: ['<span class="fa-solid fa-arrow-left"></span>', '<span class="fa-solid fa-arrow-right"></span>'],
         smartSpeed: 450,
         responsive: {
             768: {

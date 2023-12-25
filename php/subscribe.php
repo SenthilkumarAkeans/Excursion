@@ -1,14 +1,14 @@
 <?php
 error_reporting(0);
 $send_arr = array();
-$apiKey = 'c12d113ae979025c75283f9f53beede8-us12';
-$listId = 'a047e23989';
+$apiKey = '';
+$listId = '';
 $double_optin=false;
 $send_welcome=false;
 $email_type = 'html';
 $email = $_REQUEST['subscriber_email'];
 //replace us2 with your actual datacenter
-$submit_url = "http://us12.api.mailchimp.com/1.3/?method=listSubscribe";
+$submit_url = "";
 $data = array(
 'email_address'=>$email,
 'merge_vars' => array(),
