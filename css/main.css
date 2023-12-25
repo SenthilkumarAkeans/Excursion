@@ -11986,6 +11986,9 @@ a.full-width-icon:hover .social-text {
 	.main-header.header-white.transparent.sticky-nav .navbar .navbar-nav>li>a {
 		color: var(--color-body);
 	}
+	.main-header.header-white.transparent.sticky-nav .navbar .navbar-nav>li>a:hover {
+		color: var(--color-link);
+	}
 
 	.main-header.header-white.transparent.sticky-nav .navbar-pos-search a.x-search-trigger,
 	.main-header.header-white.transparent.sticky-nav .navbar-pos-search .navbar-link,
