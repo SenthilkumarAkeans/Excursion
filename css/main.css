@@ -11018,7 +11018,6 @@ a.full-width-icon:hover .social-text {
 23. Responsive
 -------------------------------------------------------------------*/
 
-
 @media only screen and (min-width: 576px) {
 	.pricing-block .col-wrap {
 		padding-bottom: 0;
@@ -11944,7 +11943,7 @@ a.full-width-icon:hover .social-text {
 
 @media only screen and (min-width: 991px) {
 	.main-header.header-white.transparent {
-		background: rgb(0 0 0 / 50%);
+		background: rgb(0 0 0 / 70%);
 	}
 
 	.main-header.header-white.transparent .navbar .navbar-brand img:first-child {
