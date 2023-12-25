@@ -226,8 +226,6 @@ Version: 		1.0.0
 
 .banner .caption h1 {
 	color: var(--color-button-hover);
-	font-size: 52px;
-	font-weight: 700;
 	margin-bottom: 23px;
 }
 
@@ -4264,7 +4262,7 @@ em.state-invalid {
 }
 
 .visual-title.text-white {
-	font-size: 1.5rem;
+	font-size: 1.875rem;
 	line-height: 1.2;
 }
 
@@ -11231,7 +11229,7 @@ a.full-width-icon:hover .social-text {
 	}
 
 	.visual-title.text-white {
-		font-size: 2.25rem;
+		font-size:2.625rem;
 	}
 
 	.visual-text-v1 {
@@ -11812,7 +11810,7 @@ a.full-width-icon:hover .social-text {
 	}
 
 	.visual-title.text-white {
-		font-size: 2.625rem;
+		font-size: 3rem;
 	}
 
 	.visual-text-v2 {
@@ -12429,7 +12427,7 @@ a.full-width-icon:hover .social-text {
 	}
 
 	.visual-title.text-white {
-		font-size: 3rem;
+		font-size: 3.75rem;
 	}
 
 	.visual-text-v2 {
