@@ -8,22 +8,22 @@ Version: 		1.0.0
 [Table of contents]
 
 1. General styles and resets
-2. Bordered Document / .bordered-document
-3. Header / .main-header
+2. Bordered Document 
+3. Header 
 4. Banner
-5. Buttons / .btn
-6. Search form / .search-form
-7. Content block / .content-block
-8. Block Heading / .block-heading
-9. Parallax / .parallax
-10. Gallery list / .gallery-list
-11. Team / .team-container
-12. Count Block / .count-block
-13. Testimonial / .testimonial-container
-14. Logo Block / .logo-container
-15. Newsletter form / .Excursion_newsletter-form
-16. Post Block / .post-grid
-17. Elements / .demo-wrapper
+5. Buttons 
+6. Search form 
+7. Content block 
+8. Block Heading 
+9. Parallax 
+10. Gallery list
+11. Team 
+12. Count Block 
+13. Testimonial 
+14. Logo Block 
+15. Newsletter 
+16. Post Block
+17. Elements
 18. Blog
 19. Footer
 20. Utilities
@@ -4477,25 +4477,6 @@ em.state-invalid {
 	padding-left: 1rem;
 }
 
-.btn.btn-arrow:after {
-	font-family: 'icomoon' !important;
-	font-style: normal;
-	font-weight: normal;
-	font-variant: normal;
-	text-transform: none;
-	line-height: 1;
-	/* Better Font Rendering =========== */
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	content: '\e914';
-	position: absolute;
-	right: 1rem;
-	top: 50%;
-	-webkit-transform: translate(0, -50%);
-	-o-transform: translate(0, -50%);
-	transform: translate(0, -50%);
-	font-size: 1.857rem;
-}
 
 .btn.btn-trans-primary {
 	border: .1429rem solid var(--color-secondary);
@@ -4672,26 +4653,6 @@ em.state-invalid {
 	box-shadow: none;
 	padding-right: 2rem;
 	padding-left: 1rem;
-}
-
-.btn-alternate.btn.btn-arrow:after {
-	font-family: 'icomoon' !important;
-	font-style: normal;
-	font-weight: normal;
-	font-variant: normal;
-	text-transform: none;
-	line-height: 1;
-	/* Better Font Rendering =========== */
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	content: '\e914';
-	position: absolute;
-	right: 1rem;
-	top: 50%;
-	-webkit-transform: translate(0, -50%);
-	-o-transform: translate(0, -50%);
-	transform: translate(0, -50%);
-	font-size: 1.857rem;
 }
 
 .btn-alternate.btn.btn-trans-primary {
@@ -7403,17 +7364,6 @@ a.full-width-icon:hover .social-text {
 	background: var(--color-button-bg-hover);
 }
 
-.fancybox-close:before {
-	content: '\e916';
-	-webkit-transform: rotate(135deg);
-	-o-transform: rotate(135deg);
-	transform: rotate(135deg);
-	position: absolute;
-	font-family: icomoon;
-	font-size: 1.5rem;
-	left: .373rem;
-}
-
 .fancybox-nav span {
 	width: 36px;
 	height: 36px;
@@ -7421,14 +7371,6 @@ a.full-width-icon:hover .social-text {
 	transform: translateY(-50%);
 	color: var(--color-button);
 	background: var(--color-button-bg);
-}
-
-.fancybox-nav span:before {
-	content: '\e915';
-	position: absolute;
-	font-family: icomoon;
-	font-size: 1.5rem;
-	left: .8rem;
 }
 
 .fancybox-nav.fancybox-next span:before {
