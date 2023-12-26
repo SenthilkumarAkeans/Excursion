@@ -68,7 +68,7 @@ $(document).ready(function() {
                 nav: false,
             },
             991: {
-                items: 3,
+                items: 4,
                 nav: true,
                 loop: false,
             }

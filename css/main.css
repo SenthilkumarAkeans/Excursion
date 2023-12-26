@@ -3780,11 +3780,11 @@ em.state-invalid {
 
 .main-header .navbar-pos-search {
 	top: 50%;
-	margin-top: -48px;
+	margin-top: -45px;
 }
 
 .main-header .navbar-pos-search.nav-trigger {
-	margin-top: -41px;
+	margin-top: -39px;
 }
 
 .main-header .navbar-pos-search a {
@@ -4766,7 +4766,7 @@ em.state-invalid {
 	white-space: normal;
 	display: inline-block;
 	vertical-align: middle;
-	max-width: 99%;
+	max-width: 100%;
 }
 
 .search-form-wrapper .close {
@@ -5285,11 +5285,14 @@ main.no-banner {
 	height: 2rem;
 	background-color: var(--color-button-bg);
 	color: var(--color-button);
-	border: 1px solid currentColor;
+	/* border: 1px solid currentColor; */
 	text-align: center;
 	z-index: 999;
 	padding-top: 0.0625rem;
 	border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .section-scroll:hover {
@@ -6646,7 +6649,7 @@ pre {
 	transition: filter linear .3s, -webkit-filter linear .3s;
 }
 
-.testimonial-container h2 {
+.testimonial-container h3{
 	color: var(--color-secondary);
 	font-weight: 300;
 }
@@ -6684,6 +6687,7 @@ pre {
 -------------------------------------------------------------------*/
 
 /******* logo slide styles *******/
+.logo-container .owl-carousel .owl-item { padding: 1px;}
 
 .logo-container {
 	text-align: center;
@@ -8308,6 +8312,7 @@ a.full-width-icon:hover .social-text {
 	font-size: 3rem;
 	line-height: 3.571rem;
 	text-align: center;
+	font-size: 20px;
 }
 
 
@@ -9504,6 +9509,7 @@ a.full-width-icon:hover .social-text {
 }
 
 .nav-wrap .nav-trigger-close {
+	font-size: 20px;
 	padding: .75rem .625rem;
 	text-align: center;
 	background-color: var(--color-button-bg);
@@ -10499,7 +10505,7 @@ a.full-width-icon:hover .social-text {
 }
 
 .footer .widget-block .post-block .post-holder:hover h6 a {
-	color: var(--color-button-hover);
+	color: var(--color-link);
 }
 
 .footer .instagram-widget ul li {
@@ -11899,7 +11905,8 @@ a.full-width-icon:hover .social-text {
 		font-size: 20px;
 	}
 
-	.main-header.header-white.transparent .navbar .navbar-nav>li>a:hover {
+	.main-header.header-white.transparent .navbar .navbar-nav>li>a:hover,
+	.main-header.header-white.transparent .navbar .navbar-nav>li>a.active {
 		color: var(--color-link);
 	}
 
@@ -13027,7 +13034,8 @@ a.full-width-icon:hover .social-text {
 	    padding: 1rem 1.5rem 1rem 0.5rem;
 		color: var(--color-body);
 	}
-	.main-header.header-white.transparent .navbar .navbar-nav>li>a:hover {
+	.main-header.header-white.transparent .navbar .navbar-nav>li>a:hover,
+	.main-header.header-white.transparent .navbar .navbar-nav>li>a.active {
 		color: var(--color-link);
 	}
 
